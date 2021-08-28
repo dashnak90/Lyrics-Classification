@@ -1,4 +1,8 @@
 import pickle
+from pyfiglet import Figlet
+
+fig = Figlet(font='slant')
+print(fig.renderText('Lyrics classifier'))
 
 lyrics=input('Please enter lyrics:')
 if lyrics == '':
